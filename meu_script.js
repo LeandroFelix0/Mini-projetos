@@ -1,4 +1,6 @@
-//manipulação das variaveis//
+//setInterval() é uma função temporizadora que executa uma função de retorno após um determinado tempo.
+setInterval(() =>{
+    //manipulação das variaveis//
 let hours = document.getElementById('hours');
 let minutes = document.getElementById('minutes');
 let seconds = document.getElementById('seconds');
@@ -25,3 +27,6 @@ hours.innerHTML = h;
 minutes.innerHTML = m;
 seconds.innerHTML = s;
 ampm.innerHTML = am;
+
+})
+
